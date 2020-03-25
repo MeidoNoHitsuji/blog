@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Article extends Model
 {
 
-    protected $appends = ['text'];
+    protected $fillable = ['text'];
 
     public function users()
     {
